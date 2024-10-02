@@ -13,7 +13,7 @@ The dataset consists of tweets labeled into three classes:
 ## Project Structure
 
 - `Hate_data.csv`: This is the dataset containing tweets and their corresponding labels.
-- `model.py`: The main Python script that loads, processes, and trains a machine learning model on the dataset.
+- `HateSpeechDetection.py`: The main Python script that loads, processes, and trains a machine learning model on the dataset.
 
 ## Dependencies
 
@@ -49,7 +49,7 @@ The project involves several key steps in data processing:
 
 2. Run the model:
     ```bash
-    python model.py
+    python HateSpeechDetection.py
     ```
 
 3. You can input your own tweet to see if it is classified as Hate Speech, Offensive Language, or No Hate or Offensive Language.
